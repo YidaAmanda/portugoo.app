@@ -5,7 +5,7 @@ import AppHeader from "../../components/AppHeader";
 import BackButton from "../../components/BackButton";
 import { global } from "../../styles/global";
 import { sign } from "../../styles/sign.styles";
-import { color } from "../../styles/theme";
+import { colors } from "../../styles/theme";
 
 export default function Index() {
   //const [texto, setTexto] = useState("");
@@ -20,7 +20,7 @@ export default function Index() {
         <TextInput
           style={sign.input}
           placeholder="Login"
-          placeholderTextColor={color.textDark}
+          placeholderTextColor={colors.textDark}
           /*value={texto}
           onChangeText={setTexto}*/
         />
@@ -28,7 +28,7 @@ export default function Index() {
         <TextInput
           style={sign.input}
           placeholder="Senha"
-          placeholderTextColor={color.textDark}
+          placeholderTextColor={colors.textDark}
           //secureTextEntry={true}
         />
       </View>

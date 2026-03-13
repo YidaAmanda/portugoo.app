@@ -1,5 +1,5 @@
 import { StyleSheet } from "react-native";
-import { color } from "./theme";
+import { colors } from "./theme";
 
 export const styles = StyleSheet.create({
   container: {
@@ -13,6 +13,6 @@ export const styles = StyleSheet.create({
   title: {
     fontFamily: "Poppins_600SemiBold",
     fontSize: 28,
-    color: color.textDark,
+    color: colors.textDark,
   },
 });

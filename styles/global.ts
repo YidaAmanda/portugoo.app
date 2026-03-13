@@ -1,15 +1,15 @@
 import { StyleSheet } from "react-native";
-import { color } from "./theme";
+import { colors } from "./theme";
 
 export const global = StyleSheet.create({
   main: {
-    backgroundColor: color.background,
+    backgroundColor: colors.background,
     flex: 1,
     paddingTop: 50,
     alignItems: "center",
   },
   confButton: {
-    backgroundColor: color.primary,
+    backgroundColor: colors.primary,
     justifyContent: "center",
     alignItems: "center",
     marginTop: 25,
@@ -22,6 +22,6 @@ export const global = StyleSheet.create({
   },
   confButtonText: {
     fontSize: 18,
-    color: color.textLight,
+    color: colors.textLight,
   },
 });
